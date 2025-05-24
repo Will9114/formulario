@@ -1,7 +1,7 @@
 # Docs for the Azure Web Apps Deploy action: https://github.com/Azure/webapps-deploy
 # More GitHub Actions for Azure: https://github.com/Azure/actions
 
-name: Build and deploy PHP app to Azure Web App - apppaas3
+name: Build and deploy PHP app to Azure Web App - appPaas3
 
 on:
   push:
@@ -62,7 +62,7 @@ jobs:
         uses: azure/webapps-deploy@v3
         id: deploy-to-webapp
         with:
-          app-name: 'apppaas3'
+          app-name: 'appPaas3'
           slot-name: 'Production'
           package: .
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_E763320511BA44D8AB03AA4C0458D636 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_956E08B340B84053B8CAFBD19AD4A8E0 }}
