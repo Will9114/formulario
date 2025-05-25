@@ -154,10 +154,10 @@
 
     <?php
     // Configuración de conexión a la base de datos
-    $host = "10.10.0.4"; // Por ejemplo: "localhost"
+    $host = "20.9.190.168"; // Por ejemplo: "localhost"
     $dbname = "mascotas_db";
-    $username = "william";
-    $password = "alfonso27";
+    $username = "rootits";
+    $password = "@Lfonso279114";
 
     try {
       $conn = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
