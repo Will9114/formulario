@@ -149,6 +149,11 @@
         <input type="text" id="nombre_duenio" name="nombre_duenio" required />
       </div>
 
+      <div class="form-group">
+        <label for="waf_test">Campo de Prueba WAF</label>
+        <input type="text" id="waf_test" name="waf_test" placeholder='Ingresa código como &lt;script&gt;alert("...")&lt;/script&gt;' />
+      </div>
+      
       <button type="submit" name="enviar" class="btn-submit">Registrar</button>
     </form>
 
